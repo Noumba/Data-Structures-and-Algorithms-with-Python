@@ -49,7 +49,7 @@ class LinkedList:
     def remove(self, data):
         """Remove an element/node that contain the data from the linked list"""
         current = self.head
-        previous = None
+        previous = None 
         found = False
 
         while current and not found:
